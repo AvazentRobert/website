@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l !== "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-WZJPPX");
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Avazent | Clean Energy Tech</title>
+  <meta name="description" content="Nuclear energy commercialisation and deployment in Sweden." />
+  <meta name="keywords" content="Clean Energy, Nuclear Energy, Consulting, Sweden" />
+  <meta name="author" content="Robert Bergqvist" />
+
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+
+  <!-- Performance: preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet" />
+
+
+  <style>
+    html, body { height: 100%; }
+    body, h1, h2, h3, h4, h5, h6 { font-family: "Open Sans", sans-serif; }
+
+    .bgimg {
+      background-image: url("/images/bg.jpg");
+      min-height: 100%;
+      background-position: center;
+      background-size: cover;
+    }
+
+    img.responsive {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+
+  <!-- Google Calendar Appointment Scheduling -->
+  <link rel="stylesheet" href="https://calendar.google.com/calendar/scheduling-button-script.css" />
+  <script src="https://calendar.google.com/calendar/scheduling-button-script.js" defer></script>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-WZJPPX"
+      height="0"
+      width="0"
+      style="display:none;visibility:hidden"
+      title="gtm"
+    ></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <main class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+    <div class="w3-display-topmiddle w3-padding-large w3-xlarge">
+      <img
+        src="/images/avazent_logo.png"
+        alt="Avazent"
+        class="responsive"
+        loading="eager"
+        decoding="async"
+      />
+    </div>
+
+    <div class="w3-display-middle">
+      <h1 class="w3-xxxlarge w3-center">Clean Energy Tech</h1>
+      <hr class="w3-white" style="margin:auto;width:50%" />
+      <p class="w3-xlarge w3-center">Commercialisation and deployment</p>
+
+      <div class="w3-center w3-margin-top">
+        <span id="gcal-btn-target"></span>
+      </div>
+    </div>
+
+    <footer class="w3-display-bottommiddle w3-padding-large">
+      Copyright © 2025 Avazent AB
+    </footer>
+  </main>
+
+  <script>
+    window.addEventListener("load", function () {
+      if (!window.calendar || !calendar.schedulingButton) return;
+
+      calendar.schedulingButton.load({
+        url: "https://calendar.google.com/calendar/appointments/schedules/AcZssZ00o1x8CU16uTwTsJu1j7R8QUvyqR7jphEt4tNVe-D9rojbSV4ybW9KFZUi2RsAZ5RZjxCWzVH3?gv=true",
+        color: "#ffffff",
+        label: "Book an appointment",
+        target: document.getElementById("gcal-btn-target"),
+      });
+    });
+  </script>
+</body>
+</html>
