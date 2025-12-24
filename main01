@@ -16,43 +16,373 @@
   </script>
   <!-- End Google Tag Manager -->
 
+  <!-- LinkedIn Insight Tag -->
+  <script type="text/javascript">
+    _linkedin_partner_id = "8405018";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+  </script>
+  <script type="text/javascript">
+    (function(l) {
+      if (!l){
+        window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+        window.lintrk.q=[]
+      }
+      var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript";
+      b.async = true;
+      b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);
+    })(window.lintrk);
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none;" alt=""
+      src="https://px.ads.linkedin.com/collect/?pid=8405018&fmt=gif" />
+  </noscript>
+  <!-- End LinkedIn Insight Tag -->
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Avazent | Clean Energy Tech</title>
-  <meta name="description" content="Nuclear energy commercialisation and deployment in Sweden." />
-  <meta name="keywords" content="Clean Energy, Nuclear Energy, Consulting, Sweden" />
-  <meta name="author" content="Robert Bergqvist" />
+  <title>Avazent | Nuclear energy</title>
 
+  <!-- Primary SEO -->
+  <meta name="description" content="Beyond advisory. Focused on outcomes. Strategy and execution support for nuclear programmes, projects, and investment decisions." />
+  <meta name="keywords" content="Nuclear energy, SMR, project development, delivery readiness, energy strategy, financing, nuclear deployment" />
+  <meta name="author" content="Robert Bergqvist | Avazent" />
+
+  <!-- Indexing + security hygiene -->
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="color-scheme" content="dark" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.avazent.com/" />
+
+  <!-- Open Graph (LinkedIn, WhatsApp, etc.) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Avazent" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:title" content="Avazent | Nuclear energy" />
+  <meta property="og:description" content="Beyond advisory. Focused on outcomes. Strategy and execution support for nuclear programmes, projects, and investment decisions." />
+  <meta property="og:url" content="https://www.avazent.com/" />
+  <meta property="og:image" content="https://www.avazent.com/images/og.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Avazent - Nuclear energy. Beyond advisory. Focused on outcomes." />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Avazent | Nuclear energy" />
+  <meta name="twitter:description" content="Beyond advisory. Focused on outcomes. Strategy and execution support for nuclear programmes, projects, and investment decisions." />
+  <meta name="twitter:image" content="https://www.avazent.com/images/og.jpg" />
+  <meta name="twitter:image:alt" content="Avazent - Nuclear energy. Beyond advisory. Focused on outcomes." />
+
+  <!-- Performance preconnects -->
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin />
+  <link rel="preconnect" href="https://snap.licdn.com" crossorigin />
+  <link rel="preconnect" href="https://px.ads.linkedin.com" crossorigin />
+
+  <!-- Preload hero background (performance) -->
+  <link rel="preload" as="image" href="/images/bg.jpg" fetchpriority="high" />
+
+  <!-- Structured data (schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Avazent",
+    "legalName": "Avazent AB",
+    "url": "https://www.avazent.com/",
+    "logo": "https://www.avazent.com/images/avazent_logo.png",
+    "email": "go@avazent.com",
+    "description": "Beyond advisory. Focused on outcomes. Strategy and execution support for nuclear programmes, projects, and investment decisions.",
+    "areaServed": "Global",
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "contactType": "business inquiries",
+      "email": "go@avazent.com",
+      "availableLanguage": ["English", "Swedish"]
+    }],
+    "sameAs": [
+      "https://www.linkedin.com/company/avazent/",
+      "https://www.linkedin.com/in/robertbergqvist/"
+    ]
+  }
+  </script>
+
+  <!-- Icons -->
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
 
-  <!-- Performance: preconnect for Google Fonts -->
+  <!-- Open Sans (open source) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet" />
-
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
 
   <style>
-    html, body { height: 100%; }
-    body, h1, h2, h3, h4, h5, h6 { font-family: "Open Sans", sans-serif; }
+    *, *::before, *::after { box-sizing: border-box; }
 
-    .bgimg {
-      background-image: url("/images/bg.jpg");
-      min-height: 100%;
-      background-position: center;
-      background-size: cover;
+    html, body {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
     }
 
-    img.responsive {
-      max-width: 100%;
+    body {
+      font-family: "Open Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color: #ffffff;
+      background: #000;
+    }
+
+    .page {
+      min-height: 100vh;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background-image: url("/images/bg.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    /* On mobile, move background 10% to the right */
+    @media (max-width: 640px) {
+      .page { background-position: 60% center; }
+    }
+
+    /* Gradient overlay: no tint at the top, cinematic tint towards the bottom */
+    .page::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.00) 0%,
+        rgba(0, 0, 0, 0.14) 25%,
+        rgba(0, 0, 0, 0.28) 55%,
+        rgba(0, 0, 0, 0.52) 100%
+      );
+    }
+
+    /* Premium vignette for depth */
+    .page::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: radial-gradient(
+        1200px 800px at 50% 40%,
+        rgba(0,0,0,0.00) 0%,
+        rgba(0,0,0,0.18) 65%,
+        rgba(0,0,0,0.32) 100%
+      );
+    }
+
+    header {
+      position: relative;
+      z-index: 2;
+      padding: clamp(16px, 3vw, 28px);
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .logo {
+      width: min(280px, 70vw);
       height: auto;
       display: block;
     }
-  </style>
 
-  <!-- Google Calendar Appointment Scheduling -->
-  <link rel="stylesheet" href="https://calendar.google.com/calendar/scheduling-button-script.css" />
-  <script src="https://calendar.google.com/calendar/scheduling-button-script.js" defer></script>
+    /* Default: exactly 10% lower than centre (60vh) */
+    :root {
+      --content-max-top: 60vh;
+    }
+
+    /* On small screens, cap it so it never drops too low */
+    @media (max-width: 640px), (max-height: 740px) {
+      :root { --content-max-top: 56vh; }
+    }
+
+    /* Subtle premium entrance animation */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translate(-50%, calc(-50% + 10px)); }
+      to   { opacity: 1; transform: translate(-50%, -50%); }
+    }
+
+    /* Content positioned 10% below centre but never too low on mobile */
+    .content {
+      position: absolute;
+      z-index: 2;
+      left: 50%;
+      top: min(60vh, var(--content-max-top));
+      transform: translate(-50%, -50%);
+      width: min(900px, 92vw);
+      padding: clamp(16px, 4vw, 48px);
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      animation: fadeUp 700ms ease-out 120ms both;
+    }
+
+    .title-block {
+      display: inline-block;
+      margin-bottom: 26px;
+    }
+
+    h1 {
+      margin: 0;
+      font-weight: 600;
+      font-size: clamp(38px, 5.8vw, 68px);
+      line-height: 1.06;
+      letter-spacing: 0.4px;
+      white-space: nowrap;
+    }
+
+    /* Premium gradient divider */
+    .divider {
+      width: 100%;
+      height: 1px;
+      border: 0;
+      margin: 20px 0 0;
+      background: linear-gradient(
+        to right,
+        rgba(255,255,255,0.00),
+        rgba(255,255,255,0.90),
+        rgba(255,255,255,0.00)
+      );
+    }
+
+    h2 {
+      margin: 0;
+      font-weight: 400;
+      font-size: clamp(20px, 2.9vw, 28px);
+      line-height: 1.25;
+      opacity: 0.95;
+    }
+
+    /* Apple-ish Liquid Glass CTA */
+    .cta {
+      margin-top: 44px;
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      padding: 16px 34px;
+      border-radius: 999px;
+
+      color: rgba(255,255,255,0.96);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 17px;
+      letter-spacing: 0.2px;
+
+      background:
+        radial-gradient(120% 140% at 20% 10%, rgba(255,255,255,0.28), rgba(255,255,255,0.08) 45%, rgba(255,255,255,0.05) 100%),
+        linear-gradient(180deg, rgba(255,255,255,0.12), rgba(255,255,255,0.04));
+
+      border: 1px solid rgba(255,255,255,0.28);
+
+      backdrop-filter: blur(14px) saturate(160%);
+      -webkit-backdrop-filter: blur(14px) saturate(160%);
+
+      box-shadow:
+        0 24px 60px rgba(0,0,0,0.55),
+        0 8px 18px rgba(0,0,0,0.30),
+        inset 0 1px 0 rgba(255,255,255,0.38),
+        inset 0 -1px 0 rgba(255,255,255,0.10);
+
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+    }
+
+    .cta::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: 999px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.36), rgba(255,255,255,0.00) 55%);
+      opacity: 0.55;
+      pointer-events: none;
+    }
+
+    .cta::after {
+      content: "";
+      position: absolute;
+      inset: -1px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, rgba(255,255,255,0.18), rgba(255,255,255,0.06));
+      opacity: 0.35;
+      filter: blur(0.5px);
+      pointer-events: none;
+    }
+
+    .cta:hover {
+      transform: translateY(-2px);
+      border-color: rgba(255,255,255,0.40);
+      background:
+        radial-gradient(120% 140% at 20% 10%, rgba(255,255,255,0.34), rgba(255,255,255,0.10) 45%, rgba(255,255,255,0.06) 100%),
+        linear-gradient(180deg, rgba(255,255,255,0.15), rgba(255,255,255,0.05));
+
+      box-shadow:
+        0 30px 70px rgba(0,0,0,0.60),
+        0 10px 22px rgba(0,0,0,0.34),
+        0 0 0 2px rgba(255,255,255,0.08),
+        inset 0 1px 0 rgba(255,255,255,0.42),
+        inset 0 -1px 0 rgba(255,255,255,0.12);
+    }
+
+    .cta:active { transform: translateY(-1px); }
+
+    .cta:focus-visible {
+      outline: 3px solid rgba(255,255,255,0.85);
+      outline-offset: 5px;
+    }
+
+    footer {
+      position: absolute;
+      z-index: 2;
+      left: 0;
+      right: 0;
+      bottom: 18px;
+      text-align: center;
+      font-size: 14px;
+      opacity: 0.85;
+      padding: 0 12px;
+    }
+
+    @media (max-width: 420px) {
+      h1 { white-space: normal; }
+      .title-block { width: 100%; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        scroll-behavior: auto !important;
+        transition: none !important;
+        animation: none !important;
+      }
+      .content { animation: none !important; }
+      .cta:hover { transform: none; }
+    }
+  </style>
 </head>
 
 <body>
@@ -68,43 +398,38 @@
   </noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <main class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-    <div class="w3-display-topmiddle w3-padding-large w3-xlarge">
+  <main class="page" role="main">
+    <header>
       <img
         src="/images/avazent_logo.png"
         alt="Avazent"
-        class="responsive"
+        class="logo"
         loading="eager"
         decoding="async"
       />
-    </div>
+    </header>
 
-    <div class="w3-display-middle">
-      <h1 class="w3-xxxlarge w3-center">Clean Energy Tech</h1>
-      <hr class="w3-white" style="margin:auto;width:50%" />
-      <p class="w3-xlarge w3-center">Commercialisation and deployment</p>
-
-      <div class="w3-center w3-margin-top">
-        <span id="gcal-btn-target"></span>
+    <div class="content">
+      <div class="title-block">
+        <h1>Nuclear energy</h1>
+        <hr class="divider" />
       </div>
+
+      <h2>Beyond advisory. Focused on outcomes.</h2>
+
+      <a
+        class="cta js-cta"
+        href="mailto:go@avazent.com?subject=Start%20a%20conversation%20with%20Avazent"
+        data-analytics="cta_start_conversation"
+        aria-label="Start a conversation with Avazent"
+      >
+        Start a conversation
+      </a>
     </div>
 
-    <footer class="w3-display-bottommiddle w3-padding-large">
-      Copyright © 2025 Avazent AB
+    <footer>
+      Copyright &copy; 2026 Avazent AB
     </footer>
   </main>
-
-  <script>
-    window.addEventListener("load", function () {
-      if (!window.calendar || !calendar.schedulingButton) return;
-
-      calendar.schedulingButton.load({
-        url: "https://calendar.google.com/calendar/appointments/schedules/AcZssZ00o1x8CU16uTwTsJu1j7R8QUvyqR7jphEt4tNVe-D9rojbSV4ybW9KFZUi2RsAZ5RZjxCWzVH3?gv=true",
-        color: "#ffffff",
-        label: "Book an appointment",
-        target: document.getElementById("gcal-btn-target"),
-      });
-    });
-  </script>
 </body>
 </html>
